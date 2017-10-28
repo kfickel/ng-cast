@@ -2,11 +2,13 @@
 
 body {
   background: #f1f1f1;
+  background-image: url("http://www.planwallpaper.com/static/images/518169-backgrounds.jpg");
 }
 
 .navbar {
   background: #fff;
   margin-bottom: 20px;
+  background-color: #280F92;
 }
 
 .navbar img {
@@ -25,15 +27,15 @@ body {
 }
 .search-bar .btn {
   border-radius: 2px;
-  border-color: #d3d3d3;
-  background: #f8f8f8;
+  border-color: #DCC500;
+  background: #FFF7B3;
   width: 20%;
   margin-left: -1px;
 }
 
 .search-bar .btn:hover {
-  border-color: #c6c6c6;
-  background: #f0f0f0;
+  border-color: #DCC500;
+  background: #FDEF79;
   box-shadow: 0 1px 0 rgba(0,0,0,0.10);
 }
 
@@ -48,6 +50,7 @@ body {
   border: 0;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
   margin-top: 10px;
+
 }
 
 .video-list {
@@ -55,6 +58,7 @@ body {
   padding: 8px;
   border: 0;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  border-radius: 3%;
 }
 
 .video-list-entry {

@@ -5,6 +5,7 @@ angular.module('video-player')
   // TODO
   controller: function(youTube) {
     this.query = '';
+    this.autoplay = false;
     this.selectVideo = () => {
     };
     this.searchResults = (query) => {
