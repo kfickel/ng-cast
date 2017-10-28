@@ -5,7 +5,11 @@ angular.module('video-player')
   bindings: {
     video: '<'
   },
-  
   // TODO
   templateUrl: 'src/templates/videoPlayer.html'
+})
+.filter('trustUrl', function($sce) {
+  return function(url) {
+    return $sce.trustAsResourceUrl(url);
+  };
 });
