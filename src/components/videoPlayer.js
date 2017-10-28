@@ -3,13 +3,12 @@ angular.module('video-player')
 .component('videoPlayer', {
 
   bindings: {
-    video: '<'
+    video: '<',
+    videoPresent: '<'
   },
   controller: function() {
-    console.log('before ', this);
-    this.$onInint = () => {
-      console.log('video ', this);
-    };
+    this.present = (this.video !== undefined) ? false : true;
+    // ng-if="present" add to VP.html
   },
   
   
