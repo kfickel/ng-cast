@@ -9,7 +9,8 @@ angular.module('video-player')
     this.searchResults = () => {
     };
     this.currentVideo = {};
-    this.videos = [];
+    this.videos = window.exampleVideoData;
+    console.log(this.videos);
   },
 
   templateUrl: 'src/templates/app.html'
